@@ -16,5 +16,8 @@ def solve(filename):
 
         return reduce(lambda (tt,tm),(t,m): (tt+t, tm+m), perRow, (0,0))
 
+    def isValid(r1, c1, r2, c2):
+        t, m = count(r1, c1, r2, c2)
 
+        t >= L && m >= L && t+m <= L
 solve("small")
