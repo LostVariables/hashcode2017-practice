@@ -1,5 +1,7 @@
 
 def solve(filename):
+
+    # parsing
     f = open("inputs/"+filename+".in")
 
     R, C, L, H = [int(x) for x in f.readline().split()]
@@ -24,6 +26,7 @@ def solve(filename):
         else:
             False
 
+    # base algorithm
     dimIndex = 0
     while True:
         slice = createSlice(firstFree(), dimensions[dimIndex])
@@ -36,6 +39,7 @@ def solve(filename):
             while dimIndex >= len(dimensions):
                 dimIndex = popSlice()
 
+    #write output
     fout = open("submissions/"+filename+".out", "w")
 
     fout.write(str(len(slices))+"\n")
