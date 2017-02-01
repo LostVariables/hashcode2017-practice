@@ -23,4 +23,16 @@ def solve(filename):
             t >= L and m >= L and t+m <= L
         else:
             False
+
+    dimIndex = 0
+    while True:
+        slice = createSlice(firstFree(), dimensions[dimIndex])
+        if isValid(slice*):
+            pushSlice(slice*)
+            if countFree <= threshold:
+                break
+        else:
+            dimIndex += 1
+            while dimIndex >= len(dimensions):
+                dimIndex = popSlice()
 solve("small")
