@@ -32,6 +32,7 @@ def solve(filename):
         slice = createSlice(firstFree(), dimensions[dimIndex])
         if isValid(slice*):
             pushSlice(slice*)
+            dimIndexes += dimIndex
             if countFree <= threshold:
                 break
         else:
