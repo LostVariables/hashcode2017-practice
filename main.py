@@ -35,4 +35,11 @@ def solve(filename):
             dimIndex += 1
             while dimIndex >= len(dimensions):
                 dimIndex = popSlice()
+
+    fout = open("submissions/"+filename+".out", "w")
+
+    fout.write(str(len(slices))+"\n")
+    for slice in slices:
+        r1, c1, r2, c2 = slice
+        fout.write(str(r1)+" "+str(c1)+" "+str(r2)+" "+str(c2)+"\n")
 solve("small")
