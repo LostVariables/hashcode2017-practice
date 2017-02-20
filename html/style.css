@@ -1,0 +1,96 @@
+.mushroom, .tomato {
+  width: 50px !important;
+  height: 50px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.tomato {
+  background-image: url("tomato.svg");
+  background-size: 135%;
+/*   float: left */
+}
+
+.mushroom {
+  background-image: url("mushroom.png");
+  background-size: 100%;
+  width: 100px;
+/*   float: left */
+}
+.col {
+  padding-right: 0px !important;
+  padding-left: 15px !important;
+}
+.slice {
+/*   float: left; */
+}
+.last {
+/*   clear: left; */
+}
+.slice-0 {
+ background-color: #001F3F99
+}
+
+.slice-1 {
+ background-color: #0074D999
+}
+
+.slice-2 {
+ background-color: #7FDBFF99
+}
+
+.slice-3 {
+ background-color: #39CCCC99
+}
+
+.slice-4 {
+ background-color: #3D997099
+}
+
+.slice-5 {
+ background-color: #2ECC4099
+}
+
+.slice-6 {
+ background-color: #01FF7099
+}
+
+.slice-7 {
+ background-color: #FFDC0099
+}
+
+.slice-8 {
+ background-color: #FF851B99
+}
+
+.slice-9 {
+ background-color: #FF413699
+}
+
+.slice-10 {
+ background-color: #F012BE99
+}
+
+.slice-11 {
+ background-color: #B10DC999
+}
+
+.slice-12 {
+ background-color: #85144B99
+}
+
+.slice-13 {
+ background-color: #FFFFFF99
+}
+
+.slice-14 {
+ background-color: #DDDDDD99
+}
+
+.slice-15 {
+ background-color: #AAAAAA99
+}
+
+.slice-16 {
+ background-color: #11111199
+}
